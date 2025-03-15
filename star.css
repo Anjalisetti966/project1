@@ -1,0 +1,105 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing: border-box;
+}
+html, body{
+height:100%;
+width:100%;
+}
+.hero-section {
+    padding: 5rem ;
+    width: 100vw;
+    color: white;
+ 
+}
+.bgimg{
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS38_gZ2gh7l86kgiIL2sBiGPBlUPHfT3C69KM_hRZVjx_9jrH_);
+}
+
+.showcase-section {
+    padding: 7rem ;
+    background-color: #f8f9fa; 
+    width: 100%;
+    display: block;
+    /* position: relative; */
+}
+
+.card:hover {
+    /* apply 2d or 3d  */
+    transition: 1s;
+    transform: translateY(5px); 
+    box-shadow: 0 8px 16px ; 
+    
+   
+}
+
+.bg-ligh{
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color:grey !important; */
+    background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS38_gZ2gh7l86kgiIL2sBiGPBlUPHfT3C69KM_hRZVjx_9jrH_);
+    color: white;
+}
+
+.testimonial-section {
+    padding: 7rem ;
+    background-color: #f8f9fa;
+   
+}
+
+
+.feature-icon {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    color: #0d6efd;
+}
+
+
+.testimonial-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+.pic:hover {
+    /* apply 2d or 3d  */
+    transform: translateY(5px); 
+    box-shadow: 0 8px 16px ; 
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+    padding: 10px;
+    
+    
+   
+}
+
+footer {
+    padding: 4rem;
+     background-color: #212529; 
+     color: rgba(255, 255, 255, 0.8); 
+}
+.marquee{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+}
+
+
+
+@media (min-width:400px){
+    .marquee{
+        font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+        display: none;
+    }
+   
+   
+
+}
